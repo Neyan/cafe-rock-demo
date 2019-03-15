@@ -1,0 +1,7 @@
+{
+    "tableName": "orders",
+    "partitionKeyName": "orderid",
+    "partitionKeyType": "S",
+    "sortKeyName": "itemid",
+    "sortKeyType": "S"
+}

@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 9368,
+  "expoServerNgrokUrl": "https://ik-ksw.anonymous.demo-cafe.exp.direct",
+  "packagerNgrokUrl": "https://packager.ik-ksw.anonymous.demo-cafe.exp.direct",
+  "ngrokPid": 25776,
+  "webpackServerPort": null
+}

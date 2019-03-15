@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/order",
+            "lambdaFunction": "theOrderFunction",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "theOrderApi",
+    "apiName": "theOrderApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "theOrderFunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "demo-cafe-project-20190314103427-authRole",
+        "unAuthRoleName": "demo-cafe-project-20190314103427-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "theOrderFunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
